@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "title": "Rock/Pop",
+        "description": "Il meglio della musica rock/pop",
+        "author": "Spotify",
+        "songs": [
+            1,
+            2,
+            3
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Podcast",
+        "description": "",
+        "author": "tanocarfi",
+        "songs": [
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Indie",
+        "description": "Il meglio della musica indie",
+        "author": "Spotify",
+        "songs": [
+            7,
+            8,
+            9
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Buon Umore",
+        "description": "Il meglio della musica per renderti felice",
+        "author": "Spotify",
+        "songs": [
+            10,
+            11,
+            12
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Viaggiare",
+        "description": "Il meglio della musica per i tuoi viaggi",
+        "author": "Spotify",
+        "songs": [
+            13,
+            14,
+            15
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Indie Italia",
+        "description": "",
+        "author": "Spotify",
+        "songs": [
+            16,
+            17,
+            18
+        ]
+    }
+]

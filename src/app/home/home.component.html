@@ -1,0 +1,52 @@
+<div class="container mt-5">
+    <!-- Ascoltati di recente -->
+    <div class="row justify-content-between">
+        <div>
+            <h3 class="section-title">Ascoltati di recente</h3>
+            <p class="section-p">I brani che hai ascoltato recentemente</p>
+        </div>
+        <div>
+            <a routerLink="/ascoltatiDiRecente">VISUALIZZA TUTTO</a>
+        </div>
+    </div>
+    <div class="row justify-content-between mt-3">
+        <div class="col-2" *ngFor="let recently of recentlyListened">
+            <mat-card class="example-card">
+                <div *ngIf="recently.path">
+                    <img mat-card-image src="{{recently.path}}" alt="Logo">
+                </div>
+                <div *ngIf="!recently.path">
+                    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                        alt="Photo of a Shiba Inu">
+                </div>
+                <mat-card-content>
+                    <h3 class="card-title">{{recently.title}}</h3>
+                    <p class="section-p">{{recently.description}}</p>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+
+    <!-- Playlist -->
+    <div class="row justify-content-between mt-5">
+        <div>
+            <h3 class="section-title">Le tue Playlist</h3>
+            <p class="section-p">I brani che ti sono piaciuti di più in una raccolta tua</p>
+        </div>
+        <div>
+            <a routerLink="/playlist">VISUALIZZA TUTTO</a>
+        </div>
+    </div>
+    <div class="row justify-content-between mt-3 mb-5">
+        <div class="col-2" *ngFor="let playlist of playlists">
+            <mat-card class="example-card">
+                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                    alt="Photo of a Shiba Inu">
+                <mat-card-content>
+                    <h3 class="card-title">{{playlist.title}}</h3>
+                    <p class="section-p">{{playlist?.description}}</p>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+</div>

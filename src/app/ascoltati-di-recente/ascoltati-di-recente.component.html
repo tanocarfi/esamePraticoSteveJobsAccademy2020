@@ -1,0 +1,30 @@
+<div class="container">
+    <!-- Ascoltati di recente -->
+    <div class="row justify-content-between mt-3">
+        <div>
+            <h3 class="section-title">Ascoltati di recente</h3>
+            <p class="section-p">I brani che hai ascoltato recentemente</p>
+        </div>
+    </div>
+    <div class="row justify-content-between mt-3">
+        <div class="col-4 mt-3" *ngFor="let recently of recentlyListened">
+            <mat-card class="example-card">
+                <div *ngIf="recently.path">
+                    <img mat-card-image src="{{recently.path}}" alt="Logo">
+                </div>
+                <div *ngIf="!recently.path">
+                    <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                        alt="Photo of a Shiba Inu">
+                </div>
+                <mat-card-content>
+                    <h3 class="card-title">{{recently.title}}</h3>
+                </mat-card-content>
+                <mat-card-actions>
+                    <a routerLink="/artista/{{recently.author}}">
+                        ARTISTA
+                    </a>
+                </mat-card-actions>
+            </mat-card>
+        </div>
+    </div>
+</div>

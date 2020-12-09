@@ -1,0 +1,55 @@
+.card 
+{
+    padding: 4rem 4.5rem;
+    border-radius: 20px;
+}
+
+.card-header
+{
+    border-bottom: 1px solid #EBEDF3;
+    padding: 0rem;
+    margin-bottom: 2rem;
+}
+
+.image-profile {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 50%;
+    padding: 14px;
+    float: left;
+    margin-top:-23px;
+}
+
+.padding-none{
+    padding: 0px !important;
+}
+
+.mat-card{
+    box-shadow: 0px 2px 6px #2C28281C !important;
+    border-radius: 10px 10px 0px 0px !important;
+}
+
+.mat-card-title
+{
+    padding: 0.08em 0px;
+    font-size: 50px;
+    line-height: 96px;
+    visibility: visible;
+    font-weight: 900;
+    letter-spacing: -.04em;
+    text-transform: none;
+}
+
+.mat-card-subtitle
+{
+    color: #B3B3B3;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+.section-p {
+    color: #B3B3B3;
+    font-size: 16px;
+}

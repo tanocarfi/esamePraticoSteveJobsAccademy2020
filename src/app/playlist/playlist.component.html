@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="row justify-content-between mt-3">
+        <div>
+            <h3 class="section-title">Le tue Playlist</h3>
+            <p class="section-p">I brani che ti sono piaciuti di più in una raccolta tua</p>
+        </div>
+    </div>
+    <div class="row justify-content-between mt-3 mb-5">
+        <div class="col-4 mt-3" *ngFor="let playlist of playlists">
+            <mat-card class="example-card">
+                <img mat-card-image src="https://material.angular.io/assets/img/examples/shiba2.jpg"
+                    alt="Photo of a Shiba Inu">
+                <mat-card-content>
+                    <h3 class="card-title">{{playlist.title}}</h3>
+                    <p class="section-p">{{playlist?.description}}</p>
+                </mat-card-content>
+            </mat-card>
+        </div>
+    </div>
+</div>

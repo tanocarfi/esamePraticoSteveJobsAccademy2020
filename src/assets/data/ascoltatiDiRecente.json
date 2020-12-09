@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "title": "Hotel California",
+        "description": "Hotel California è un singolo estratto dall'omonimo album degli Eagles nel 1976",
+        "path": "../../assets/img/hotel-california.jpg",
+        "author": "1"
+    },
+    {
+        "id": 2,
+        "title": "Stairway to Heaven",
+        "description": "Stairway to Heaven è un brano del gruppo musicale britannico Led Zeppelin, quarta traccia del quarto album in studio Led Zeppelin IV pubblicato nel 1971",
+        "path": "../../assets/img/stairwayToHeaven.jpg",
+        "author": "2"
+    },
+    {
+        "id": 3,
+        "title": "Thunderstruck",
+        "description": "Thunderstruck è uno dei singoli più noti della band australiana AC/DC, il primo singolo estratto dall'album The Razors Edge.",
+        "path": "../../assets/img/thunderstruck.png",
+        "author": "3"
+    },
+    {
+        "id": 4,
+        "title": "Pensieri in Codice",
+        "description": "Idee dal mondo del software, di internet e della programmazione. Un podcast a cura di Valerio Galano",
+        "path": "../../assets/img/pensieriInCodice.jpg",
+        "author": "4"
+    },
+    {
+        "id": 5,
+        "title": "Tech is it",
+        "description": "Tech is it è un cantiere aperto. Anche la copertina, lo stesso logo, i colori, sono in discussione. ",
+        "path": "../../assets/img/tech-is-it.png",
+        "author": "5"
+    },
+    {
+        "id": 6,
+        "title": "GitBar",
+        "description": "L'idea alla base di gitbar è quella di creare un podcast in italiano dedicato alla programmazione e sviluppo web. Un piccolo punto di ritrovo per fullstack developer.",
+        "path": "../../assets/img/gitbar.jpg",
+        "author": "6"
+    }
+]

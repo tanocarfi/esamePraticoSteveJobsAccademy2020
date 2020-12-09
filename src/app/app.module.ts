@@ -24,12 +24,20 @@ import { MatIconModule } from '@angular/material/icon';
 
 import { NavbarComponent } from './navbar/navbar.component';
 import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { PlaylistComponent } from './playlist/playlist.component';
+import { AscoltatiDiRecenteComponent } from './ascoltati-di-recente/ascoltati-di-recente.component';
+import { ArtistComponent } from './artist/artist.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    FooterComponent
+    FooterComponent,
+    HomeComponent,
+    PlaylistComponent,
+    AscoltatiDiRecenteComponent,
+    ArtistComponent
   ],
   imports: [
     BrowserModule,

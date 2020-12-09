@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Eagles",
+        "description": "Gli Eagles sono un gruppo musicale rock statunitense proveniente da Los Angeles, formato nel 1971 originariamente da 4 componenti: Glenn Frey, Don Henley, Bernie Leadon e Randy Meisner; dopo vari cambiamenti di formazione e una lunga pausa dal 1980 al 1994, il gruppo si è sciolto nel marzo 2016, a causa della morte di Glenn Frey, avvenuta due mesi prima per poi riunirsi nel 2017."
+    },
+    {
+        "id": 2,
+        "name": "Led Zeppelin",
+        "description": "I Led Zeppelin sono stati un gruppo musicale britannico formato nel 1968, considerato tra i grandi innovatori del rock e tra i principali pionieri dell'hard rock."
+    },
+    {
+        "id": 3,
+        "name": "AC/DC",
+        "description": "Gli AC/DC (spesso reso graficamente come ACϟDC) sono un gruppo musicale hard rock australiano formatosi a Sydney nel 1973."
+    },
+    {
+        "id": 4,
+        "name": "Valerio Galano",
+        "description": "Mi chiamo Valerio e dal 2006 lavoro con passione come programmatore e analista freelance. Mi occupo principalmente dello sviluppo di Web Application e siti Web. In alto trovi tutti i miei contatti ed i link ai progetti di divulgazione."
+    },
+    {
+        "id": 5,
+        "name": "Riccardo Palombo",
+        "description": "Freelance ed amante del running, della tecnologia."
+    },
+    {
+        "id": 6,
+        "name": "@brainrepo",
+        "description": "Io sono @brainrepo, sviluppatore e host di questo podcast e il vostro compagno di chiacchiere."
+    }
+]
